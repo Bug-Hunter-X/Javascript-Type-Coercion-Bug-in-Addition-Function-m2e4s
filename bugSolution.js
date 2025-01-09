@@ -1,0 +1,1 @@
+function foo(a,b){if(typeof a !== 'number' || typeof b !== 'number'){return 'Error: Inputs must be numbers';}return a+b;}console.log(foo(1,2));//Expected Output:3console.log(foo(1,"2"));//Expected Output:Error: Inputs must be numbersconsole.log(foo("1",2));//Expected Output:Error: Inputs must be numbersconsole.log(foo("1","2"));//Expected Output:Error: Inputs must be numbers
